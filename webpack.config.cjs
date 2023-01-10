@@ -1,6 +1,8 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  watch: true,
+
   mode: "production",
 
   entry: {
